@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.button {
+  padding: 30px;
+  margin: 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(13, 13, 13);
+  
+}
+
+.calculator{
+  height:max-content;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: fit-content;
+  border-radius: 50px;
+  background-color: rgb(212, 228, 231);
+}
+
+.output{
+  margin: 5px;
+  width:245px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor:text;
+  text-align: left;
+}
+

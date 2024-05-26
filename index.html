@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="calculator">
+    <input class= "output" type="text" id="result" disabled>
+    <br>
+    <button class = "button" onclick="addToScreen('7')">7</button>
+    <button class = "button" onclick="addToScreen('8')">8</button>
+    <button class = "button" onclick="addToScreen('9')">9</button>
+    <button class = "button" onclick="addToScreen('/')">/</button>
+    <br>
+    <button class = "button" onclick="addToScreen('4')">4</button>
+    <button class = "button" onclick="addToScreen('5')">5</button>
+    <button class = "button" onclick="addToScreen('6')">6</button>
+    <button class = "button" onclick="addToScreen('*')">*</button>
+    <br>
+    <button class = "button" onclick="addToScreen('1')">1</button>
+    <button class = "button" onclick="addToScreen('2')">2</button>
+    <button class = "button" onclick="addToScreen('3')">3</button>
+    <button class = "button" onclick="addToScreen('-')">-</button>
+    <br>
+    <button class = "button" onclick="addToScreen('0')">0</button>
+    <button class = "button" onclick="addToScreen('.')">.</button>
+    <button class = "button" onclick="calculate()">=</button>
+    <button class = "button" onclick="addToScreen('+')">+</button>
+    <br>
+    <button class = "button" onclick="clearScreen()">C</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
